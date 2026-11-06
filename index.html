@@ -3,53 +3,131 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="FlashStory Chinese — read Chinese stories, save vocabulary, and practice what you learn." />
-  <title>FlashStory Chinese</title>
+  <meta name="theme-color" content="#069494" />
+  <meta name="description" content="FlashStory Chinese helps you learn Mandarin through stories, saved vocabulary, spaced repetition and visual practice." />
+  <title>FlashStory Chinese — Learn Chinese through stories</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="./" aria-label="FlashStory Chinese home">
-      <span class="brand-mark" aria-hidden="true">闪</span>
-      <span>FlashStory Chinese</span>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32"><path d="M5 7.5c4.2 0 7.5 1 11 3.2v15c-3.5-2.2-6.8-3.2-11-3.2V7.5Zm22 0c-4.2 0-7.5 1-11 3.2v15c3.5-2.2 6.8-3.2 11-3.2V7.5Z"/></svg>
+      </span>
+      <span class="brand-copy"><strong>FlashStory</strong><span>Chinese</span></span>
     </a>
     <nav aria-label="Primary">
+      <a href="#how-it-works">How it works</a>
       <a href="support.html">Support</a>
       <a href="privacy.html">Privacy</a>
       <a href="terms.html">Terms</a>
     </nav>
   </header>
 
-  <main>
+  <main class="home-main">
     <section class="hero">
-      <div class="eyebrow">Chinese reading that turns into practice</div>
-      <h1>Read. Save. Practice.</h1>
-      <p class="lede">
-        FlashStory Chinese helps you learn through stories: read Chinese, save useful words,
-        and review them with spaced repetition.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="support.html">Get support</a>
-        <a class="button secondary" href="privacy.html">Privacy policy</a>
+      <img class="hero-landscape" src="brand-scene.svg" alt="" aria-hidden="true" />
+      <div class="hero-copy">
+        <div class="eyebrow"><span>中文</span> Story-based Chinese learning</div>
+        <h1>Learn Chinese<br><em>through stories.</em></h1>
+        <p class="lede">Read Chinese in context, save the words that matter, and turn them into focused practice that follows you back to the story.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#how-it-works">See how it works</a>
+          <a class="button secondary" href="support.html">Get support</a>
+        </div>
+        <div class="feature-strip" aria-label="Core features">
+          <span>Real stories</span>
+          <span>Save vocabulary</span>
+          <span>AI-powered flashcards</span>
+          <span>Visual learning</span>
+        </div>
+      </div>
+
+      <div class="story-preview" aria-label="FlashStory Chinese learning preview">
+        <div class="preview-top">
+          <div>
+            <span class="mini-label">Reading now</span>
+            <strong>Monkey King</strong>
+          </div>
+          <span class="level-pill">Beginner</span>
+        </div>
+        <div class="chinese-line">孙悟空跳上山顶，看见远处的云。</div>
+        <div class="pinyin-line">Sūn Wùkōng tiào shàng shāndǐng, kànjiàn yuǎnchù de yún.</div>
+        <div class="translation-line">Sun Wukong jumped to the mountaintop and saw the clouds in the distance.</div>
+        <div class="saved-word">
+          <span class="hanzi">云</span>
+          <span><strong>yún</strong><small>cloud</small></span>
+          <span class="saved-badge">Saved</span>
+        </div>
       </div>
     </section>
 
-    <section class="feature-grid" aria-label="How FlashStory works">
-      <article class="card">
-        <div class="icon" aria-hidden="true">读</div>
-        <h2>Read</h2>
-        <p>Build comprehension with Chinese stories designed for focused reading.</p>
-      </article>
-      <article class="card">
-        <div class="icon" aria-hidden="true">词</div>
-        <h2>Save</h2>
-        <p>Keep vocabulary you encounter while reading so it stays connected to context.</p>
-      </article>
-      <article class="card">
-        <div class="icon" aria-hidden="true">练</div>
-        <h2>Practice</h2>
-        <p>Review saved vocabulary with short, focused spaced-repetition sessions.</p>
-      </article>
+    <section class="trust-row" aria-label="FlashStory learning loop">
+      <div><strong>Read</strong><span>Stories with context</span></div>
+      <div class="loop-arrow">→</div>
+      <div><strong>Save</strong><span>Words worth keeping</span></div>
+      <div class="loop-arrow">→</div>
+      <div><strong>Practice</strong><span>Review what you learned</span></div>
+    </section>
+
+    <section id="how-it-works" class="section">
+      <div class="section-heading">
+        <span class="eyebrow">Built around the reading loop</span>
+        <h2>One story. Three ways to make it stick.</h2>
+        <p>FlashStory keeps vocabulary connected to where you found it, so practice feels like part of the story instead of a separate word list.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="card feature-card">
+          <div class="icon">读</div>
+          <span class="card-kicker">01 · Read</span>
+          <h3>Learn in context</h3>
+          <p>Read approachable Chinese stories with sentence translations, pinyin and word lookup when you need them.</p>
+        </article>
+        <article class="card feature-card">
+          <div class="icon">词</div>
+          <span class="card-kicker">02 · Save</span>
+          <h3>Build your vocabulary</h3>
+          <p>Save useful words straight from the story and keep the original context attached to them.</p>
+        </article>
+        <article class="card feature-card">
+          <div class="icon">练</div>
+          <span class="card-kicker">03 · Practice</span>
+          <h3>Review with purpose</h3>
+          <p>Practice saved vocabulary with spaced repetition, listening, recall and story-connected visual cues.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="visual-section">
+      <div class="visual-card">
+        <div class="visual-copy">
+          <span class="eyebrow">Designed for memory</span>
+          <h2>Vocabulary should feel like part of a world.</h2>
+          <p>FlashStory connects words back to scenes, sentences and visual clues so your reviews carry more meaning than isolated flashcards.</p>
+        </div>
+        <div class="practice-demo">
+          <div class="practice-image">
+            <div class="sun"></div>
+            <div class="mountain m1"></div>
+            <div class="mountain m2"></div>
+            <span class="practice-word">山</span>
+          </div>
+          <div class="practice-meta">
+            <strong>shān</strong>
+            <span>mountain</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-card">
+      <div>
+        <span class="eyebrow">FlashStory Chinese</span>
+        <h2>Read. Save. Practice. Remember.</h2>
+        <p>A calmer way to build Chinese vocabulary through stories you actually want to finish.</p>
+      </div>
+      <a class="button primary" href="support.html">Support &amp; contact</a>
     </section>
   </main>
 
