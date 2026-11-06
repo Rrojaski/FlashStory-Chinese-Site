@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" role="img" aria-labelledby="title desc">
+<title id="title">FlashStory panda mascot hiking</title>
+<desc id="desc">A cheerful panda wearing a teal headband and hiking backpack, holding a walking stick.</desc>
+<defs>
+  <linearGradient id="band" x1="0" x2="1"><stop stop-color="#15c6c3"/><stop offset="1" stop-color="#069494"/></linearGradient>
+  <linearGradient id="bag" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c79a4e"/><stop offset="1" stop-color="#8e6732"/></linearGradient>
+  <filter id="s"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#1b5f65" flood-opacity=".18"/></filter>
+</defs>
+<g filter="url(#s)">
+  <ellipse cx="250" cy="505" rx="145" ry="22" fill="#7bb4a9" opacity=".18"/>
+  <circle cx="177" cy="150" r="60" fill="#181b20"/>
+  <circle cx="343" cy="149" r="60" fill="#181b20"/>
+  <ellipse cx="260" cy="224" rx="126" ry="132" fill="#fffdfa"/>
+  <path d="M149 172c55-29 153-38 223 1l-7 39c-70-24-152-22-215 2z" fill="url(#band)"/>
+  <path d="M147 191c-32 8-52 26-72 48 35 5 60-7 81-23z" fill="#0aa5a5"/>
+  <path d="M151 202c-30 29-52 41-73 49 31 8 64 3 89-21z" fill="#0aa5a5"/>
+  <path d="M238 95c17-27 41-27 57-1-17 6-34 6-57 1z" fill="#f3f0e9"/>
+  <ellipse cx="207" cy="220" rx="41" ry="52" fill="#1f2227" transform="rotate(16 207 220)"/>
+  <ellipse cx="314" cy="219" rx="41" ry="52" fill="#1f2227" transform="rotate(-16 314 219)"/>
+  <ellipse cx="211" cy="212" rx="17" ry="23" fill="#fff"/>
+  <ellipse cx="309" cy="211" rx="17" ry="23" fill="#fff"/>
+  <circle cx="217" cy="216" r="8" fill="#1a1d20"/><circle cx="303" cy="216" r="8" fill="#1a1d20"/>
+  <circle cx="222" cy="207" r="4" fill="#fff"/><circle cx="308" cy="207" r="4" fill="#fff"/>
+  <ellipse cx="260" cy="249" rx="16" ry="12" fill="#26292c"/>
+  <path d="M229 269q31 38 62 0q-5 54-31 57q-26-3-31-57z" fill="#2b2b2b"/>
+  <path d="M243 290q18 19 35 0q-3 24-18 26q-14-2-17-26z" fill="#f27f72"/>
+  <ellipse cx="176" cy="268" rx="20" ry="11" fill="#f6a6aa" opacity=".65"/>
+  <ellipse cx="344" cy="268" rx="20" ry="11" fill="#f6a6aa" opacity=".65"/>
+  <ellipse cx="267" cy="392" rx="113" ry="122" fill="#fffdfa"/>
+  <path d="M173 325c-39 15-65 62-57 118l55-8 31-97z" fill="#202329"/>
+  <path d="M346 333c40 14 65 51 66 93l-58 11-28-89z" fill="#202329"/>
+  <path d="M227 464c-42 8-64 41-73 76h80l32-62z" fill="#202329"/>
+  <path d="M299 462c38 6 64 37 70 78h-80l-27-61z" fill="#202329"/>
+  <path d="M111 332c-36 5-68 36-72 88l36 5 50-54z" fill="url(#bag)"/>
+  <rect x="61" y="338" width="114" height="120" rx="28" fill="url(#bag)"/>
+  <path d="M67 358h98" stroke="#7d5a2f" stroke-width="8"/>
+  <rect x="75" y="382" width="36" height="38" rx="8" fill="#d9ad60"/>
+  <rect x="121" y="382" width="36" height="38" rx="8" fill="#d9ad60"/>
+  <circle cx="95" cy="375" r="5" fill="#f3c96b"/><circle cx="142" cy="375" r="5" fill="#f3c96b"/>
+  <rect x="72" y="303" width="86" height="24" rx="12" fill="#b68b48" transform="rotate(-8 72 303)"/>
+  <path d="M93 302c17-12 44-17 64-11" fill="none" stroke="#6c522f" stroke-width="5"/>
+  <path d="M389 293q26-17 44 8" fill="none" stroke="#202329" stroke-width="28" stroke-linecap="round"/>
+  <path d="M432 311 406 503" stroke="#8e552e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M432 310l10-21" stroke="#c98844" stroke-width="9" stroke-linecap="round"/>
+  <path d="M180 337q44 24 80 11" fill="none" stroke="#a2783e" stroke-width="14" stroke-linecap="round"/>
+</g>
+</svg>
