@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844" role="img" aria-labelledby="title desc">
+<title id="title">FlashStory Practice screen</title>
+<desc id="desc">A practice flashcard showing the Chinese character 会, pronunciation, definition, an example sentence and two answer buttons.</desc>
+<rect width="390" height="844" rx="46" fill="#f8fafb"/>
+<rect x="1" y="1" width="388" height="842" rx="45" fill="none" stroke="#dfe5e8" stroke-width="2"/>
+<text x="28" y="34" font-size="16" font-family="Arial, sans-serif" font-weight="700" fill="#1e2428">5:56</text>
+<g transform="translate(306 20)" fill="#1e2428">
+  <rect x="0" y="10" width="4" height="8" rx="2"/><rect x="7" y="6" width="4" height="12" rx="2"/><rect x="14" y="2" width="4" height="16" rx="2"/><rect x="21" y="0" width="4" height="18" rx="2"/>
+  <path d="M36 10c7-7 17-7 24 0M41 15c4-4 10-4 14 0" fill="none" stroke="#1e2428" stroke-width="3" stroke-linecap="round"/>
+  <rect x="68" y="3" width="31" height="17" rx="5"/><rect x="100" y="8" width="3" height="7" rx="1"/>
+</g>
+<text x="24" y="91" font-size="28" font-family="Arial, sans-serif" fill="#202529">×</text>
+<text x="195" y="92" text-anchor="middle" font-size="20" font-family="Arial, sans-serif" font-weight="700" fill="#24292d">Practice</text>
+<text x="355" y="92" text-anchor="end" font-size="18" font-family="Arial, sans-serif" font-weight="700" fill="#24292d">1 / 6</text>
+<rect x="24" y="120" width="342" height="8" rx="4" fill="#edf1f2"/>
+<rect x="24" y="120" width="57" height="8" rx="4" fill="#069494"/>
+
+<rect x="24" y="156" width="342" height="325" rx="14" fill="#fff" stroke="#dfe4e6"/>
+<text x="195" y="304" text-anchor="middle" font-size="92" font-family="'Noto Sans SC','PingFang SC',sans-serif" font-weight="700" fill="#202326">会</text>
+<text x="195" y="346" text-anchor="middle" font-size="23" font-family="Arial, sans-serif" fill="#6e7377">huì / kuài</text>
+<text x="195" y="376" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#2b3033">can</text>
+<g transform="translate(330 174)" fill="none" stroke="#069494" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M0 12h9l10-8v26l-10-8H0z"/><path d="M24 8q8 8 0 16"/><path d="M29 3q13 13 0 26"/>
+</g>
+
+<rect x="24" y="499" width="342" height="157" rx="14" fill="#fff" stroke="#dfe4e6"/>
+<text x="40" y="531" font-size="16" font-family="Arial, sans-serif" fill="#069494">Example</text>
+<text x="40" y="568" font-size="20" font-family="'Noto Sans SC','PingFang SC',sans-serif" fill="#2b3033">一路上，他学会了说人的</text>
+<text x="40" y="598" font-size="20" font-family="'Noto Sans SC','PingFang SC',sans-serif" fill="#2b3033">话，也学会了在陌生的地方</text>
+<text x="40" y="628" font-size="20" font-family="'Noto Sans SC','PingFang SC',sans-serif" fill="#2b3033">耐心等待。</text>
+<rect x="262" y="518" width="86" height="116" rx="12" fill="#eaf7f5"/>
+<circle cx="306" cy="551" r="26" fill="#d4aa77"/>
+<path d="M281 607c13-34 52-35 61 0" fill="#7a9c77"/>
+<circle cx="297" cy="547" r="4" fill="#2e3132"/><circle cx="314" cy="547" r="4" fill="#2e3132"/>
+<path d="M301 558q6 5 12 0" fill="none" stroke="#2e3132" stroke-width="3" stroke-linecap="round"/>
+
+<rect x="24" y="749" width="160" height="62" rx="16" fill="#fff" stroke="#069494" stroke-width="2"/>
+<text x="104" y="786" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" font-weight="700" fill="#069494">Don't know</text>
+<rect x="206" y="749" width="160" height="62" rx="16" fill="#069494"/>
+<text x="286" y="786" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" font-weight="700" fill="#fff">Know</text>
+</svg>
