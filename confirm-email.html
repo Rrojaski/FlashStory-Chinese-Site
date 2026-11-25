@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex">
+  <title>Return to FlashStory</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { min-height: 100vh; min-height: 100svh; display: grid; place-items: center; }
+    main { max-width: 440px; text-align: center; }
+    .legal { margin: 24px 0; padding: 32px 24px; }
+    img { display: block; margin: 0 auto 24px; }
+    .legal h1 { font-size: 32px; line-height: 1.15; }
+    .legal p { margin: 16px 0 28px; }
+    .button.primary { background: #087575; }
+    .button:focus-visible { outline: 3px solid var(--text); outline-offset: 4px; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="legal" aria-labelledby="title">
+      <img src="assets/email/reading-panda.png" width="98" height="98" alt="">
+      <h1 id="title">Return to FlashStory</h1>
+      <p id="detail">Open FlashStory on your phone to continue.</p>
+      <a class="button primary" href="flashstorychinese://sign-in">Open FlashStory</a>
+    </section>
+  </main>
+  <script>
+    (() => {
+      const query = new URLSearchParams(location.search);
+      const fragment = new URLSearchParams(location.hash.slice(1));
+      if (location.search || location.hash) history.replaceState(null, '', location.pathname);
+
+      let heading;
+      let detail;
+      if (['error', 'error_code', 'error_description'].some(key => query.has(key) || fragment.has(key))) {
+        heading = 'This link could not be used';
+        detail = 'If you already confirmed your email, sign in to FlashStory. Otherwise, open your latest email or request a fresh link in the app.';
+      } else if ((fragment.get('message') || query.get('message') || '').includes('confirm link sent to the other email')) {
+        heading = 'Check your other inbox';
+        detail = 'Open the confirmation link sent to your other email address to finish the change.';
+      } else if (['signup', 'email_change'].includes(fragment.get('type')) && fragment.get('access_token')) {
+        heading = 'Email confirmed';
+        detail = 'Open FlashStory on your phone and sign in with your email and password.';
+      } else {
+        return;
+      }
+      document.title = heading + ' | FlashStory';
+      document.getElementById('title').textContent = heading;
+      document.getElementById('detail').textContent = detail;
+    })();
+  </script>
+</body>
+</html>
